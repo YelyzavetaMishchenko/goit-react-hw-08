@@ -1,0 +1,38 @@
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #4a90e2;
+  padding: 20px 40px;
+  border-radius: 4px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navLeft,
+.navRight {
+  display: flex;
+  gap: 20px;
+}
+
+.link {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.link:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.linkRight {
+  color: white;
+  text-decoration: underline;
+  transition: opacity 0.3s;
+}
+
+.linkRight:hover {
+  opacity: 0.7;
+}

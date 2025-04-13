@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-color: #f2f2f2;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.greeting {
+  font-weight: 500;
+  color: #333;
+}
+
+.button {
+  padding: 8px 16px;
+  background-color: #e53935;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #c62828;
+}
