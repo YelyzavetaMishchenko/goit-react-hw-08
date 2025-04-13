@@ -7,8 +7,8 @@ export default function Navigation() {
   const isLoggedIn = useSelector(selectIsLoggedIn);
 
   return (
-    <nav className={styles.nav}>
-      <div className={styles.left}>
+    <nav className={styles.navBar}>
+      <div className={styles.navLeft}>
         <NavLink to="/" className={styles.link}>
           Home
         </NavLink>
@@ -18,17 +18,6 @@ export default function Navigation() {
           </NavLink>
         )}
       </div>
-
-      {!isLoggedIn && (
-        <div className={styles.right}>
-          <NavLink to="/register" className={styles.link}>
-            Register
-          </NavLink>
-          <NavLink to="/login" className={styles.link}>
-            Login
-          </NavLink>
-        </div>
-      )}
     </nav>
   );
 }
